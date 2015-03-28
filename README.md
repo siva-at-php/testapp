@@ -6,9 +6,9 @@ A test app using the Zend framework.
 
 
 # Configurations:
-Note: I have installed XAMPP in my D: drive.
+Note: I have installed XAMPP on my Windows D: drive.
 
-1. Clone the repo
+1. Clone the repo into htdocs folder (D:\xampp\htdocs)
 	- includes ZendFramework1.12.11 library
 	- skeleton application 
 
