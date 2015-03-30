@@ -2,18 +2,19 @@
 A test app using the Zend framework.
 
 # Requirements:
-1. XAMPP 5.6.3
+* XAMPP 5.6.3
 
 
-# Configurations:
+## Configurations:
 Note: I have installed XAMPP on my Windows D: drive.
 
-1. Clone the repo into htdocs folder (D:\xampp\htdocs)
+1.  Clone the repo into htdocs folder (D:\xampp\htdocs)
 	- includes ZendFramework1.12.11 library
 	- skeleton application 
 
-2. D:\xampp\apache\conf\extra\httpd-vhosts.conf
+2.  D:\xampp\apache\conf\extra\httpd-vhosts.conf
 	- Setup the virtualhost as given below:
+````
 	<VirtualHost testapp.local:80>
 		DocumentRoot "D:/xampp/htdocs/testapp/public"
 		ServerName testapp.local
@@ -27,18 +28,18 @@ Note: I have installed XAMPP on my Windows D: drive.
 				Allow from all
 		</Directory>
 	</VirtualHost>
-
-3. C:\Windows\System32\drivers\etc\hosts
+````
+3.  C:\Windows\System32\drivers\etc\hosts
 	- Map virtual host server name (testapp.local) into local ip address
 	- add the below line into hosts file
 		127.0.0.1	testapp.local
 
-4. Start the apache server by using XAMPP-control panel application (available inside the D:\xampp folder)
+4.  Start the apache server by using XAMPP-control panel application (available inside the D:\xampp folder)
 
-5. Open your browser and run the testapp http://testapp.local
+5.  Open your browser and run the testapp http://testapp.local
 
-# Folder Structures
-1. testapp
+## Folder Structures
+1.  testapp
 	- application, where we can start write all our MVC logics
 		- configs
 		- controllers
