@@ -10,7 +10,7 @@
     self.init = init;
 
     function init(modules) {
-      (!modules.three.live) ? modules.three.init(modules) : null;
+      (!modules.three.live) ? modules.three.innit(modules) : null;
       for (var i = 100; i > 0; i--) {
         var counter = i;
       }
